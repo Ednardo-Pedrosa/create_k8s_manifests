@@ -40,7 +40,7 @@ echo -n "{VALOR}" | base64
 ```bash
 kubectl patch secrets peb-secrets --type=merge -p='{"data":{"VARIAVEL":"VALOR_BASE64"}}'
 ```
-1.3 - Após o comando, prodemos rodar o seguinte comando para restartar a imagem:
+1.3 - Após o comando, podemos executar o seguinte comando para restartar controlado da imagem:
 ```bash
 kubectl rollout restart deployment peb-deployment -n peb-prod
 ```
