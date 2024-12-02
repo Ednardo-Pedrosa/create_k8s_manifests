@@ -1,4 +1,4 @@
-# Bem vindo ao projeto web_lab!
+# Bem vindo ao projeto PEB!
 
 ## Como realizar um deploy no k8s
 
