@@ -51,7 +51,7 @@ kubectl rollout restart deployment peb-deployment -n peb-prod
 ```bash
 kubectl patch configmap peb-configmap --type=merge -p='{"data":{"VARIAVEL":"VALOR"}}'
 ```
-1.3 - Após o comando, prodemos rodar o seguinte comando para restartar a imagem:
+1.3 - Após executar o comando acima, podemos realizar o restart controlado da imagem:
 ```bash
 kubectl rollout restart deployment peb-deployment -n peb-prod
 ```
