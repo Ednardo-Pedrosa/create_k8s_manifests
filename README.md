@@ -27,7 +27,9 @@ Você pode acompanhar o andamento do deploy diretamente na aba Actions do reposi
 1. Para executar a troca de valores ou inserir uma nova variavel de ambiente, precisamos seguir os seguintes passos:
 
 Certificar-se que tem acesso ao k8s da Novadata, se não tiver, solicite o acesso a equipe de infraestrutura.
-
+```bash
+kubectl get nodes
+```
 ## Variáveis com valores sensíveis (Secrets):
 
 1.1 Converter o valor em base64:
