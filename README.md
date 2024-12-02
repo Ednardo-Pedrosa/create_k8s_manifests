@@ -36,7 +36,7 @@ echo -n "{VALOR}" | base64
 ```
 1.2 Executar o seguinte comando para setar ou alterar o valor de uma variável:
 ```bash
-kubectl patch secrets peb-secrets --type=merge -p='{"data":{"VARIAVEL":"VALOR-BASE64"}}'
+kubectl patch secrets peb-secrets --type=merge -p='{"data":{"VARIAVEL":"VALOR_BASE64"}}'
 ```
 1.3 - Após o comando, prodemos rodar o seguinte comando para restartar a imagem:
 ```bash
